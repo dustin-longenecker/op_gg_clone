@@ -1,9 +1,12 @@
-import React from "react";
+import React, { Component } from 'react'
 
-const Landing = () => (
-  <div>
+class Landing extends Component {
+  render() {
+ return ( <div>
    <p>test paragraph</p>
   </div>
-);
+  )
+}
+};
 
 export default Landing;
